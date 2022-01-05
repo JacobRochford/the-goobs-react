@@ -1,0 +1,59 @@
+
+#tours {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+#tours h2{
+    font-family: 'Metal Mania';
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.tourRow {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: .75fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.tourDate {
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tourCity {
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.tourArena {
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.buyTicketButton {
+    font-size: 1.1rem;
+    color: #000;
+    background-color: rgb(23, 200, 253);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 3rem;
+    box-shadow: 1px 1px 5px;
+}
+
+.buyTicketButton:hover {
+    background-color: rgba(23, 200, 253, .5);
+}
+
+.line {
+    border: solid 1px rgb(200, 200, 200);
+}
