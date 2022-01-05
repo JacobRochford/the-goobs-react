@@ -23,7 +23,7 @@ footer div {
 footer ul {
     display: flex;
     flex-grow: 1;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 5%;
     list-style-type: none;
 }
