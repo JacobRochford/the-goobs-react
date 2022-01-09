@@ -1,0 +1,10 @@
+.tourSection {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tourSection h2{
+    font-family: 'Metal Mania';
+    font-size: 2.2rem;
+    text-align: center;
+}
