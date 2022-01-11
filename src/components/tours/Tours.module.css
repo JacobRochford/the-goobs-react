@@ -1,0 +1,12 @@
+
+#tours {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+#tours h2{
+    font-family: 'Metal Mania';
+    font-size: 2.2rem;
+    text-align: center;
+}
