@@ -1,12 +1,8 @@
-import MainNavigation from "../components/layout/MainNavigation";
-import Tours from "../components/layout/Tours";
-import Footer from "../components/layout/Footer";
+import Tours from "../components/tours/Tours";
 
 function Homepage() {
   return <div>
-    <MainNavigation />
     <Tours />
-    <Footer />
   </div>
 }
 
