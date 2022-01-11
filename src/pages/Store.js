@@ -1,6 +1,12 @@
+import MainNavigation from "../components/layout/MainNavigation";
+import Footer from "../components/layout/Footer";
+
 function StorePage() {
   return (
-    <h1>Store Page</h1>
+    <div>
+      <MainNavigation />
+      <Footer />
+    </div>
   );
 }
 
