@@ -6,7 +6,7 @@ function Layout(props) {
   return (
     <div>
       <MainNavigation />
-      <main className={styles.tourSection}>
+      <main className={styles.main}>
         {props.children}
       </main>
       <Footer />
