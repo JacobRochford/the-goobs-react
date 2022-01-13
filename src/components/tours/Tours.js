@@ -45,7 +45,6 @@ function Tours(props) {
   
   return (
     <div id={styles.tours}>
-      <h2>TOURS</h2>
       {/* {props.tours.map(tour => (
         <TourItem
           key={tour.id}
@@ -59,5 +58,3 @@ function Tours(props) {
 }
 
 export default Tours;
-
-const tenYearCompany = companies.filter(company => (company.end - company.start >= 10))
