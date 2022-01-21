@@ -6,6 +6,7 @@ function Tours({tours}) {
   
   return (
     <div id={styles.tours}>
+      <h2>TOURS</h2>
       {tours.map(tour => (
         <TourItem
           key={tour.id}
