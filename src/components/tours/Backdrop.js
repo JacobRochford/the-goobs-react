@@ -1,7 +1,7 @@
 import styles from './Backdrop.module.css';
 
-function Backdrop() {
-  return <div className={styles.backdrop}> </div>
+function Backdrop({onClick}) {
+  return <div className={styles.backdrop} onClick={onClick} />
 }
 
 export default Backdrop;
