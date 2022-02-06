@@ -42,8 +42,8 @@ const TOUR_DATA = [
 function Homepage() {
   return (
     <div>
-      <h2>TOURS</h2>
       <Tours tours={TOUR_DATA} />
+      
     </div>
   );
 }
