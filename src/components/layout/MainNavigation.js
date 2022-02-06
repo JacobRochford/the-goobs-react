@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import styles from './MainNavigation.module.css';
 
 function MainNavigation() {
@@ -6,13 +6,13 @@ function MainNavigation() {
     <header className={styles.hero}>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link to="/store">Store</Link>
+          <Link href="/store">Store</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link href="/about">About</Link>
         </li>
       </ul>
       <h1>The Goobs</h1>
