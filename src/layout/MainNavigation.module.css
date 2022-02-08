@@ -1,0 +1,75 @@
+.hero nav {
+    border-bottom: 1px solid #999;
+    /* position: fixed; */
+}
+
+.hero ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+}
+
+.hero li {
+    padding: 1em 5%;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.hero li:hover {
+    transform: scale(1.2);
+}
+
+.hero a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 1em;
+}
+
+
+.hero {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("../images/Hero.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    /* padding-bottom: 250px; */
+}
+
+.hero h1{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 9rem;
+    font-family: 'Booter - Zero Zero';
+    font-weight: normal;
+    color: #fff;
+    padding: 80px 0 120px 0;
+}
+
+.hero div {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.hero div:hover {
+    transform: scale(1.2);
+}
+
+.hero button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.cartIcon {
+    padding: .6rem 1.2rem .5rem 1rem;
+    min-width: 40px;
+    min-height: 40px;
+}
