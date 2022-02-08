@@ -1,14 +1,14 @@
-import Layout from '../components/layout/Layout';
+import Layout from '../layout/Layout';
 import '../styles/globals.css'
-// import Theme from '../styles/theme';
+import Theme from '../styles/theme';
 
 function MyApp({ Component, pageProps }) {
   return (
-    // <Theme>
-    <Layout>
-      <Component {...pageProps} />
-    </Layout> 
-    // {/* </Theme> */}
+    <Theme>
+      <Layout>`
+        <Component {...pageProps} />
+      </Layout> `
+    </Theme>
   );
 }
 
