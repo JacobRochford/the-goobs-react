@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: "Booter - Zero Zero";
-    src: url("../Fonts/Booter - Zero Zero.woff") format("woff"),
-         url("../Fonts/Booter - Zero Zero.woff2") format("woff2");
+    src: url("../fonts/Booter - Zero Zero.woff") format("woff"),
+         url("../fonts/Booter - Zero Zero.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
@@ -12,14 +12,26 @@
 
 * {
     font-family: Raleway, sans-serif, 'Times New Roman';
+    padding: 0;
 }
 
 html {
-    font-size: 16px;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(240, 240, 240);
+}
+
+footer {
+    background: url('../images/Hero.jpg');
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    position: absolute;
+    height: 220px;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
