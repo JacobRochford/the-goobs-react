@@ -1,20 +1,19 @@
 import React from 'react';
-import { StyledArticle } from './AboutSection.styled';
+import { StyledArticle, StyledSection } from './AboutSection.styled';
 import Image from 'next/image';
 import GoobsImage from '../../images/Goobs.JPG'
 
 const AboutSection = () => {
   return (
-    <StyledArticle>
+    <StyledSection>
       <div>
-      <Image
-        className='goobsImage'
-        src={GoobsImage}
-          alt="Goobs Image"
+        <Image
+          className="goobsImage"
+          src={GoobsImage}
+          alt="Picture of the two band members"
           width={250}
           height={450}
-      />
-
+        />
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illo,
@@ -51,7 +50,7 @@ const AboutSection = () => {
         saepe porro vitae asperiores eum accusantium? Illum aliquid excepturi
         magni quos.
       </p>
-    </StyledArticle>
+    </StyledSection>
   );
 };
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledArticle = styled.article`
+export const StyledSection = styled.section`
   div {
     float: left;
     margin: 2% 5%;
