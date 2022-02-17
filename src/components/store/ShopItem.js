@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyledShopItem } from './ShopItem.styled';
 
-const ShopItem = (title, image, price, alt) => {
+const ShopItem = (id, title, image, price) => {
   return (
     <StyledShopItem>
       <h3>{title}</h3>
-      <img src={image} alt={alt} />
+      <img src={image} />
       <div>
         <span>{price}</span>
         <button>ADD TO CART</button>

@@ -5,9 +5,9 @@ import Theme from '../styles/theme';
 function MyApp({ Component, pageProps }) {
   return (
     <Theme>
-      <Layout>`
+      <Layout>
         <Component {...pageProps} />
-      </Layout> `
+      </Layout>
     </Theme>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledArticle, StyledSection } from './AboutSection.styled';
+import { StyledSection } from './AboutSection.styled';
 import Image from 'next/image';
 import GoobsImage from '../../images/Goobs.JPG'
 
